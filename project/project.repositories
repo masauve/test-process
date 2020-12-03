@@ -11,16 +11,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>rq-maven</id>
-        <url>http://portail-depotspaquets.services.rq/artifactory/wso2-maven-stable</url>
+        <id>rhpam</id>
+        <url>file://///fics-dxpbpm.prod.mrq/GestionCas-Sim6/RHPAM_Repo/repository</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>rhpam</id>
-        <url>file://///fics-dxpbpm.prod.mrq/GestionCas-Sim6/RHPAM_Repo/repository</url>
+        <id>rq-maven</id>
+        <url>http://portail-depotspaquets.services.rq/artifactory/wso2-maven-stable</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
