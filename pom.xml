@@ -76,7 +76,7 @@
         </executions>
         <configuration>
            <serverId>nexus</serverId>
-           <nexusUrl>http://nexus-pam-tools.apps.openshift.rhcasalab.com/nexus/</nexusUrl>
+           <nexusUrl>http://nexus-pam-tools.apps.ocp.myocp.net/nexus/</nexusUrl>
            <skipStaging>true</skipStaging>
         </configuration>
      </plugin>
@@ -86,7 +86,7 @@
   <distributionManagement>
      <snapshotRepository>
        <id>nexus-snapshots</id>
-       <url>http://nexus-pam-tools.apps.openshift.rhcasalab.com/content/repositories/snapshots</url>
+       <url>http://nexus-pam-tools.apps.ocp.myocp.net/content/repositories/snapshots/</url>
     </snapshotRepository>
  </distributionManagement>
 
